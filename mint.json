@@ -27,8 +27,12 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Connect to Network",
+      "url": "network"
+    },
+    {
+      "name": "Print at Life Time Work",
+      "url": "print"
     }
   ],
   "anchors": [
@@ -39,12 +43,12 @@
     },
     {
       "name": "Support Contacts",
-      "icon": "slack",
+      "icon": "address-book",
       "url": "https://mintlify.com/community"
     },
     {
       "name": "Need Help",
-      "icon": "newspaper",
+      "icon": "circle-info",
       "url": "https://mintlify.com/blog"
     }
   ],
@@ -53,8 +57,8 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "quickstart"
+        
       ]
     },
     {
@@ -62,24 +66,30 @@
       "pages": [
         "essentials/markdown",
         "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "essentials/images"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "How to Connect",
       "pages": [
-        "api-reference/introduction"
+        "network/win",
+        "network/mac",
+        "network/ios",
+        "network/android",
+        "network/chromeos",
+        "network/linux"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Print at Life Time Work",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "print/printwin",
+        "print/printmac",
+        "print/printios",
+        "print/printandroid",
+        "print/printchromeos",
+        "print/printlinux"
+
       ]
     }
   ],
