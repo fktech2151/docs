@@ -34,7 +34,7 @@
   "anchors": [
     {
       "name": "Technology We Support",
-      "icon": "book-open-cover",
+      "icon": "computer",
       "url": "https://mintlify.com/docs"
     },
     {
