@@ -1,33 +1,34 @@
 ---
-title: 'Print using Apple Mac OS'
-description: 'Example section for showcasing API endpoints'
+title: "Print using Apple Mac OS"
+description:
 ---
 
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/Jw_uEQ9vgNw?si=Rj97SbPGIhg6IP_w"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
+## Set up
+
+1. Navigate to System Settings > Printers and Scanners (this is called System Preferences > Printers and Scanners on older versions of macOS).
+2. Click the Add Printer, Scanner or Fax button under the Printers List (this is a + icon on older versions of macOS).
+   - The Add Printer dialog is displayed. It displays a list of all of the discovered printers on the network.
+3. Select a printer that uses the Bonjour protocol. The Name, Location, and Use is displayed.
+4. At the bottom of the dialog box, check that Use is set to Secure AirPrint.
+5. If Secure AirPrint isn’t displayed:
+   a. Close the Add dialog.
+   b.Disconnect from the network, then reconnect to it again.
+   c.Check if you can see Secure AirPrint now. If you can’t, contact your System Administrator.
+6. Click Add.
+7. Print your document. When prompted, enter your PaperCut username and password.
+
 <Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
+If you enter the wrong authentication details, MacBook devices do not show any warning message; your job just will not print.
+
+If your job doesn’t print, check the Print Queue dialog. If the print job is there and has the message Held for authentication, click the icon; then re-enter your login details.
 </Note>
-
-## Welcome
-
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
-
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
-
-## Authentication
-
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
-
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```

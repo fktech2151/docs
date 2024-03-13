@@ -1,33 +1,27 @@
 ---
-title: 'Print using Google Android'
-description: 'Example section for showcasing API endpoints'
+title: "Print using Google Android"
+description:
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/vTgRHmURvos?si=2Ud7VTDi4UTqQDQ3"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
 
-## Welcome
+## Set up
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+1. Make sure your Android is connected to your organization’s WiFi.
+2. Install the [Mobility Print app](https://play.google.com/store/apps/details?id=com.papercut.projectbanksia&amp;hl=en) from the Google Play Store.
+3. Launch the app.
+4. Tap Android settings.
+5. Tap Mobility Print.
+6. Tap the enable toggle.
+7. Exit out of Settings.
+8. Print your document. When prompted, enter your PaperCut username and password.
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
 
-## Authentication
-
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
-
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```

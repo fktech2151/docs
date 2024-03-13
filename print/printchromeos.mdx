@@ -1,33 +1,26 @@
 ---
-title: 'Print using Google Chrome OS'
-description: 'Example section for showcasing API endpoints'
+title: "Print using Google Chrome OS"
+description:
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+## Set up printing on a Chromebook
 
-## Welcome
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/qf1Mqyg49DY?si=-skn_ORm3Z1p-T_0"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+1. Make sure the client is connected to your organization’s network.
+2. Install [the Mobility Print Chrome](https://chrome.google.com/webstore/detail/project-banksia/alhngdkjgnedakdlnamimgfihgkmenbh) app .
+3. Open the page to print.
+   - The way you print is different depending on the app you’re printing from. For more information, see the documentation for the app. When you select a printer, make sure you select a Mobility Print printer as identified by the PaperCut icon.
+4. Print the content.
+   - For example, to print from Microsoft Word, press Ctrl+P, select a printer; then click Print.
+5. When prompted, sign in.
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
-
-## Authentication
-
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
-
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+<Tip>Your Chromebook must run ChromeOS version 69+.</Tip>
